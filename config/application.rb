@@ -18,7 +18,7 @@ module LinkShortener
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    Rails.application.routes.default_url_options[:host] = '123.456.789.012'
+    Rails.application.routes.default_url_options[:host] = 'belam'
     # Only loads a smaller set of middleware suitable for API only apps.
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
